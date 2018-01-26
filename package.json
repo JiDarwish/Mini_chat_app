@@ -1,0 +1,20 @@
+{
+  "name": "mini-chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JiDarwish <ji.darwish98@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node app.js",
+    "watch": "nodemon --exec babel-node app.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
